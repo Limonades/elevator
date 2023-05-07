@@ -1,0 +1,30 @@
+.wrapper {
+  padding: 30px;
+  border: 1px solid black;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
+
+.floors {
+  border: 1px solid black;
+  margin-right: 30px;
+}
+
+.floor {
+  width: 50px;
+  height: 50px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.buttonsContainer {
+  display: flex;
+  margin-left: auto;
+}

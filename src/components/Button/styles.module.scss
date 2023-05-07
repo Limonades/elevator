@@ -1,0 +1,20 @@
+.button {
+  padding: 0;
+  margin: 10px;
+  border: 1px solid black;
+  color: black;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:disabled {
+    opacity: 0.2;
+  }
+}
